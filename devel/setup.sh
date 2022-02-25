@@ -91,7 +91,6 @@ while [ $_i -lt $_CATKIN_ENVIRONMENT_HOOKS_COUNT ]; do
   unset CATKIN_ENV_HOOK_WORKSPACE
   _i=$((_i + 1))
 done
-
 unset _i
 
 unset _CATKIN_ENVIRONMENT_HOOKS_COUNT
